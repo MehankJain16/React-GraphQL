@@ -1,0 +1,62 @@
+.bookings__list {
+  max-width: 800px;
+  margin: auto;
+  padding: 10px;
+}
+
+.bookings__list__item {
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bookings__item-data h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #08094e;
+}
+
+.bookings__item-data p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.bookings__item__cancel-btn {
+  background-color: #08094e;
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+  border: 1px solid #08094e;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.bookings__item__cancel-btn:focus {
+  outline: none;
+}
+
+.bookings__item__cancel-btn:hover,
+.bookings__item__cancel-btn:active {
+  background-color: #292a79;
+  border: 1px solid #292a79;
+}
+
+@media (max-width: 576px) {
+  .bookings__item-data h3 {
+    font-size: 15px;
+  }
+  .bookings__item-data p {
+    font-size: 13px;
+  }
+  .bookings__item__cancel-btn {
+    font-size: 10px;
+  }
+}
