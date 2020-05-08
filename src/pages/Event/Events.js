@@ -60,7 +60,7 @@ const Events = () => {
       },
     };
 
-    fetch("http://localhost:4000/graphql", {
+    fetch("https://easyevents-graphql-api.herokuapp.com/graphql", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -114,7 +114,7 @@ const Events = () => {
       },
     };
 
-    fetch("http://localhost:4000/graphql", {
+    fetch("https://easyevents-graphql-api.herokuapp.com/graphql", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -157,7 +157,7 @@ const Events = () => {
         `,
     };
 
-    fetch("http://localhost:4000/graphql", {
+    fetch("https://easyevents-graphql-api.herokuapp.com/graphql", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
